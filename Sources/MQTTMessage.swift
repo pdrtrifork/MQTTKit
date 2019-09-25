@@ -11,7 +11,7 @@ import Foundation
 
 public struct MQTTMessage {
     var topic: String
-    var payload: Data
+    public var payload: Data
     var qos: MQTTQoSLevel
     var retained: Bool
     
